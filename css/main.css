@@ -1,0 +1,27 @@
+body{
+	background: #ddd;
+}
+
+.deck{
+	max-width: 550px;
+	margin: 20px auto;
+	overflow: hidden;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.deck .card{
+	float: left;
+	width: 100px;
+	height: 150px;
+	margin: 15px;
+	border: 1px solid #333;
+	background: yellow;
+	border-radius: 8px;
+	font-size: 30px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+	cursor: pointer;
+}
+
